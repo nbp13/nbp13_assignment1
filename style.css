@@ -44,7 +44,7 @@
     margin-right: auto;
     border-collapse: collapse;
     color: #2b1700;
-    border-color: 1px solid #2b1700
+    border-color: solid #2b1700
   }
   
   td, th {
@@ -125,5 +125,4 @@
   @media (max-width: 600px) {
     .insta-grid {
       grid-template-columns: 1fr; 
-    }
-   
+    }}
