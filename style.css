@@ -1,0 +1,129 @@
+* {
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+    margin-bottom: 5px
+  }
+  
+  h2 {
+    color: #2b1700;
+  }
+  
+  #tag-line {
+    font-family: "Snell Roundhand", cursive;
+    margin-top: 0px;
+  }
+  
+  
+  * {
+    background-color: #8d6e63;
+  }
+  
+  p {
+    color: #2b1700;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  a:link {
+    color: #bca89f;
+  }
+  
+  ul {
+    display: inline-block;
+  }
+  
+  li {
+    text-align: left;
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: #2b1700;
+    border-color: 1px solid #2b1700
+  }
+  
+  td, th {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #venmo {
+    cursor: pointer;
+    color: #2b1700; 
+    text-decoration: underline;
+  }
+  
+  .insta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
+    justify-items: center; 
+  }
+  
+  #payment-method {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    color: #2b1700;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  #payment-list {
+    margin-top: 0px;
+    color: #2b1700;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  #bookings-info {
+    margin-bottom: 5px;
+    color: #2b1700;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  #bookings-bullet-points {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #231709;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  #confirmation, #note {
+    color: #231709;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    background: #231709;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 1em;
+    font-family: serif;
+    font-weight: 500
+  }
+  
+  button:hover {
+    background: #4c3228;
+  }
+  
+  /* phones */
+  @media (max-width: 600px) {
+    .insta-grid {
+      grid-template-columns: 1fr; 
+    }
+   
